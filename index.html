@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFG Insider</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GFG Insider</h1>
+        </header>
+
+        <main>
+            <div class="search-container">
+                <input type="text" id="user-input" placeholder="Enter your username...">
+                <button id="submit-btn">
+                    <i class="fas fa-search"></i>
+                    <span>Search</span>
+                </button>
+                <p id="error-message" class="error-message"></p>
+            </div>
+
+            <div class="progress-circles">
+                <div class="progress-item">
+                    <div class="circle" id="basic-circle">
+                        <span id="basic-percent">0%</span>
+                    </div>
+                    <p class="difficulty-label">Basic</p>
+                </div>
+                <div class="progress-item">
+                    <div class="circle" id="easy-circle">
+                        <span id="easy-percent">0%</span>
+                    </div>
+                    <p class="difficulty-label">Easy</p>
+                </div>
+                <div class="progress-item">
+                    <div class="circle" id="medium-circle">
+                        <span id="medium-percent">0%</span>
+                    </div>
+                    <p class="difficulty-label">Medium</p>
+                </div>
+                <div class="progress-item">
+                    <div class="circle" id="hard-circle">
+                        <span id="hard-percent">0%</span>
+                    </div>
+                    <p class="difficulty-label">Hard</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
